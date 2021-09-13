@@ -12,8 +12,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
-     matrix:
-       versions: [8]
+      matrix:
+        versions: [8]
     env:
       repo: "govpf/centos"
     steps:
